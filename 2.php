@@ -6,5 +6,6 @@ var_dump($arr);
 $val =1;
 foreach (range(1, 20) as $element){
     $val*=$element;
-    echo "$val" . "<br>";
+
 }
+echo "$val" . "<br>"; // произведение єлементов в массиве
